@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.poppins-font {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+/* navbar start styles */
+.img {
+      width: 25px;
+}
+
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 70px 95px 50px;
+}
+
+nav ul li {
+      display: inline-block;
+      margin-right: 30px;
+
+}
+
+nav ul li a {
+      color: #000;
+      text-decoration: none;
+}
+
+.nav-head {
+      font-size: 24px;
+      font-weight: 700;
+}
+
+a {
+      font-size: 16px;
+      font-weight: 500;
+}
+
+/* navbar end styles */
+/* header start styles */
+.header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 30px 40px 100px;
+}
+
+.header-heading {
+      color: #3A3A3A;
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: -10px;
+
+}
+
+.header-para {
+      color: #3A3A3A;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 30px;
+}
+
+.btn-primary {
+      color: #fff;
+      background-color: #E02C6D;
+      padding: 13px 30px;
+      border: none;
+      border-radius: 20px;
+}
+
+.main-camera {
+      background-image: url(../images/Circle\ design.svg);
+}
+
+/* header end styles */
+/* main start styles */
+/* first section */
+.first-section {
+      margin-top: 100px;
+      margin-bottom: 100px;
+}
+
+.first-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+}
+
+hr { 
+      border: 1px solid #787885;
+      width: 900px;
+      margin-left: 200px;
+
+}
+
+/* second section */
+
+.head {
+      font-size: 28px;
+      font-weight: 500;
+}
+
+.section-description {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 30px;
+}
+
+.heading {
+      font-size: 50px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 30px;
+}
+
+.description {
+      border: 1px solid black;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.paragraph {
+      font-size: 24px;
+}
+
+.tripod {
+      height: 256px;
+      width: 300px;
+}
+
+.star-solid {
+      width: 15px;
+}
+
+.content {
+      display: flex;
+      gap: 20px;
+}
+
+.para {
+      color: #787885;
+      font-size: 14px;
+}
+
+/* others */
+.others {
+      color: #E02C6D;
+      font-size: 16px;
+      text-align: end;
+      margin-right: 130px;
+      margin-bottom: 100px;
+}
+
+/* third section */
+.third-section {
+      margin: 50px 50px 100px;
+}
+
+.third-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.third-heading {
+      font-size: 38px;
+      font-weight: 500;
+}
+
+.third-para {
+      color: #6c6c6c;
+      font-size: 16px;
+      margin-bottom: 16px;
+      margin-top: 16px;
+}
+
+.gear {
+      height: 270px;
+      width: 404px;
+}
+
+/* main end styles */
+/* footer start styles */
+.footer-content {
+      background-color: #0A0826;
+      /* margin: 50px 0px; */
+}
+
+.footer-description {
+      text-align: center;
+      padding: 50px 0px;
+}
+
+.footer-head {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+}
+
+.footer-para {
+      color: #D9DBE1;
+      font-size: 14px;
+      margin-bottom: 10px;
+}
+
+.apps {
+      width: 30px;
+}
+
+a {
+      margin-left: 20px;
+}
+
+/* footer end styles */
